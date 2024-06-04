@@ -9,22 +9,22 @@
 
     <project name="openembedded-core"
         remote="oe"
-        revision="scarthgap"
+        revision="kirkstone"
         path="sources/openembedded-core"/>
     
     <project name="meta-openembedded"
         remote="oe"
-        revision="scarthgap"
+        revision="kirkstone"
         path="sources/meta-openembedded"/>
 
      <project name="poky"
         remote="yocto"
-        revision="scarthgap"
+        revision="kirkstone"
         path="sources/poky"/>
 
    <project name="meta-sunxi"
         remote="bananapi"
-        revision="scarthgap"
+        revision="kirkstone"
         path="sources/meta-sunxi"/>
 
     <project name="meta-qt6.git"
@@ -34,7 +34,7 @@
 
     <project name="meta-cuteradio-qt6"
         remote="cuteradio"
-        revision="scarthgap"
+        revision="kirkstone"
         path="sources/meta-cuteradio"/>
 
 </manifest>
