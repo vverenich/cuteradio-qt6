@@ -4,7 +4,7 @@
     <remote name="oe" fetch="git://git.openembedded.org"/>
     <remote name="yocto" fetch="git://git.yoctoproject.org"/>
     <remote name="bananapi" fetch="https://github.com/linux-sunxi/"/>
-    <remote name="qt" fetch="git://code.qt.io/yocto/meta-qt6.git"/>
+    <remote name="qt" fetch="git://code.qt.io/yocto/"/>
     <remote name="cuteradio" fetch="https://github.com/vverenich"/>
 
     <project name="openembedded-core"
@@ -27,7 +27,7 @@
         revision="scarthgap"
         path="sources/meta-sunxi"/>
 
-    <project name=""
+    <project name="meta-qt6.git"
         remote="qt"
         revision="6.7"
         path="sources/meta-qt6"/>
