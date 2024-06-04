@@ -7,6 +7,11 @@
     <remote name="qt" fetch="git://code.qt.io/yocto/meta-qt6.git"/>
     <remote name="cuteradio" fetch="https://github.com/vverenich"/>
 
+    <project name="openembedded-core"
+        remote="oe"
+        revision="scarthgap"
+        path="sources/openembedded-core"/>
+    
     <project name="meta-openembedded"
         remote="oe"
         revision="scarthgap"
