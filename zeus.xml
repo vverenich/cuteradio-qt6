@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote name="yocto" fetch="git://git.yoctoproject.org"/>
+    <remote name="oe" fetch="git://git.openembedded.org"/>
+    <remote name="qt" fetch="git://code.qt.io/yocto"/>
+    <remote name="cuteradio" fetch="https://github.com/bstubert"/>
+
+    <project name="poky"
+        remote="yocto"
+        revision="5e1f52edb7a9f790fb6cb5d96502f3690267c1b1"
+        path="sources/poky"/>
+
+    <project name="meta-openembedded"
+        remote="oe"
+        revision="9e60d30669a2ad0598e9abf0cd15ee06b523986b"
+        path="sources/meta-openembedded"/>
+
+    <project name="meta-qt5"
+        remote="qt"
+        revision="5.14"
+        path="sources/meta-qt5"/>
+
+    <project name="meta-raspberrypi"
+        remote="yocto"
+        revision="cee2557dc872ddaf721e6badb981c7772503f8ea"
+        path="sources/meta-raspberrypi"/>
+
+    <project name="meta-cuteradio"
+        remote="cuteradio"
+        revision="cd7806223f072f8600cd41fe091cb6a57a4d6ecb"
+        path="sources/meta-cuteradio"/>
+
+</manifest>
