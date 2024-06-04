@@ -3,33 +3,33 @@
 
     <remote name="oe" fetch="git://git.openembedded.org"/>
     <remote name="yocto" fetch="git://git.yoctoproject.org"/>
-    <remote name="raspberrypi" fetch="https://git.yoctoproject.org/"/>
-    <remote name="qt" fetch="https://github.com/meta-qt5/"/>
+    <remote name="bananapi" fetch="https://github.com/linux-sunxi/"/>
+    <remote name="qt" fetch="git://code.qt.io/yocto/meta-qt6.git"/>
     <remote name="cuteradio" fetch="https://github.com/vverenich"/>
 
     <project name="meta-openembedded"
         remote="oe"
-        revision="thud"
+        revision="scarthgap"
         path="sources/meta-openembedded"/>
 
      <project name="poky"
         remote="yocto"
-        revision="thud"
+        revision="scarthgap"
         path="sources/poky"/>
 
-   <project name="meta-raspberrypi"
-        remote="raspberrypi"
-        revision="thud"
-        path="sources/meta-raspberrypi"/>
+   <project name="meta-sunxi"
+        remote="bananapi"
+        revision="scarthgap"
+        path="sources/meta-sunxi"/>
 
-    <project name="meta-qt5"
+    <project name=""
         remote="qt"
-        revision="thud"
-        path="sources/meta-qt5"/>
+        revision="6.7"
+        path="sources/meta-qt6"/>
 
-    <project name="meta-cuteradio"
+    <project name="meta-cuteradio-qt6"
         remote="cuteradio"
-        revision="thud"
+        revision="scarthgap"
         path="sources/meta-cuteradio"/>
 
 </manifest>
