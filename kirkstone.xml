@@ -6,11 +6,6 @@
     <remote name="bananapi" fetch="https://github.com/linux-sunxi/"/>
     <remote name="qt" fetch="git://code.qt.io/yocto/"/>
     <remote name="cuteradio" fetch="https://github.com/vverenich"/>
-
-    <project name="openembedded-core"
-        remote="oe"
-        revision="kirkstone"
-        path="sources/openembedded-core"/>
     
     <project name="meta-openembedded"
         remote="oe"
